@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.5.0)
+  - BetterTextField (0.4.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - BetterTextField
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  BetterTextField: 3298b68216b14b4e88937d7f38b142f62e88ed11
+
+PODFILE CHECKSUM: 04b1b83019cc1f416217f4b333edec030dd1764b
+
+COCOAPODS: 1.2.1
