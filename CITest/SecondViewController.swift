@@ -27,5 +27,9 @@ class SecondViewController: UIViewController {
     @IBAction func valueDidChange(_ textField: UITextField) {
         displayLabel.text = textField.text
     }
+    
+    func sum(a: Int, b: Int) -> Int {
+        return a + b
+    }
 }
 

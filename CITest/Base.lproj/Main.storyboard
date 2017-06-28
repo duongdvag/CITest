@@ -81,6 +81,7 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtd-Jc-CS4">
                                 <rect key="frame" x="16" y="78" width="343" height="132"/>
+                                <accessibility key="accessibilityConfiguration" identifier="displayLabel"/>
                                 <constraints>
                                     <constraint firstAttribute="height" priority="250" constant="132" id="Ef1-WU-N3v"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="132" id="ice-IL-7am"/>
