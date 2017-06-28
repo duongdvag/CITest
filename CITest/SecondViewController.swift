@@ -10,6 +10,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var displayLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +23,9 @@ class SecondViewController: UIViewController {
     }
 
 
+    // MARK:- Textfield
+    @IBAction func valueDidChange(_ textField: UITextField) {
+        displayLabel.text = textField.text
+    }
 }
 
